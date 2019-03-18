@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/locaties.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <title>Stumpel prototype</title>
+</head>
+
+<body>
+    <nav class="navigatie navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Stumpel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="form-inline my-2 my-lg-0 ml-auto navigatie-zoeken">
+                    <input class="navigatie-zoek-veld form-control mr-sm-2" type="search" placeholder="Waar zoek je naar?"
+                        aria-label="Search">
+                    <button class="navigatie-zoek-button btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container locaties">
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Locaties</h2>
+                <p>
+                    Is uw artikel niet beschikbaar op uw locatie? Vraag dan aan een
+                    medewerker of het misschien naar uw locatie kan worden
+                    overgebracht.
+                </p>
+
+                <table class="table table-sm table-borderless">
+                    <tbody>
+                      <tr>
+                        <td>Hoorn (centrum)</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Hoorn (Heusmolen)</td>
+                        <td class="text-danger">Niet op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Heerhugowaard</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Enkhuizen</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Heemskerk</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Krommenie</td>
+                        <td class="text-danger">Niet op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Medemblik</td>
+                        <td class="text-danger">Niet op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Wieringerwerf</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Almere</td>
+                        <td class="text-danger">Niet op voorraad</td>
+                      </tr>
+                      <tr>
+                        <td>Alkmaar</td>
+                        <td class="text-success">Op voorraad</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d310483.0763891694!2d4.9725090106401755!3d52.556251367848496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37336ba4a316ec21!2sBoekhandel+Stumpel!5e0!3m2!1snl!2snl!4v1552569728461" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+
+</body>
+
+<!-- jQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<!-- own script files -->
+<script src="js/script.js"></script>
+
+</html>
