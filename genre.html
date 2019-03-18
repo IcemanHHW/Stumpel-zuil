@@ -11,6 +11,7 @@
         crossorigin="anonymous">
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/genre.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
@@ -19,29 +20,48 @@
 </head>
 
 <body>
+    <nav class="navigatie navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand algemeen-link" href="index.html">Terug naar beginscherm</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="form-inline my-2 my-lg-0 ml-auto navigatie-zoeken">
+                    <input class="navigatie-zoek-veld form-control mr-sm-2" type="search" placeholder="Waar zoek je naar?"
+                        aria-label="Search">
+                    <button class="navigatie-zoek-button btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div class="main">
         <div class="genres">
             <h2 id="genre-title">Welke genres lees je het liefst?</h2>
             <div class="top-row">
-                <a href="#">
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Thrillers</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="boek-warning.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Kookboeken</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Fantasy</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Stripboeken</p>
@@ -49,13 +69,13 @@
                 </a>
             </div>
             <div class="bottom-row">
-                <a href="#">
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Sport</p>
                     </div>
-                    </a>
-                <a href="#">
+                </a>
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Kunst en Cultuur</p>
@@ -67,7 +87,7 @@
                         <p>Religie en Filosofie</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="boek.html">
                     <div class="content">
                         <i class="fas fa-book"></i>
                         <p>Business</p>
