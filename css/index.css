@@ -7,9 +7,19 @@
     color: #ffffff;
 }
 
+h2, h3 {
+    color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .algemeen-h2,
 .algemeen-h3 {
     color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .algemeen-link {
@@ -42,6 +52,7 @@ html {
 
 a {
     text-decoration: none !important;
+
 }
 
 /* NAVIGATIE */

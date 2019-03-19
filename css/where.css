@@ -1,0 +1,82 @@
+html {
+    max-width: 1200px;
+    max-height: 800px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+
+.where a, a:hover, a:active {
+    text-decoration: none;
+    color: #666;
+}
+
+.where .choices a {
+    color: #666;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid #f69a00;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.main {
+    height: 1200px;
+}
+
+.where {
+    top: 10%;
+    position: relative;
+}
+
+.choices {
+    margin: 0 auto;
+    width: 65%;
+    top: 20%;
+    text-align: center;
+}
+
+.where i {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: -5px 0 15px 0;
+}
+
+.where p {
+    text-align: center;
+}
+
+.content {
+    height: 100%;
+    padding: calc(150px/2/1.6) 0
+}
+
+#where-title {
+    margin-bottom: 20px;
+    color: #0F2C56;
+    font-size: 26pt;
+    text-align: center;
+}
+
+.where-img {
+    margin: 0 56px;
+}
+
+.button-navigation {
+    min-height: 50px;
+    width: 59%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.button-navigation #back {
+    float: left;
+}
+
+.button-navigation #next {
+    float: right;
+}
