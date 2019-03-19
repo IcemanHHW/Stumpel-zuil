@@ -213,3 +213,54 @@ html {
   .uitleg-button {
       margin-top: 20px;
   }
+
+  /* VRAGEN */
+
+
+  .vragen-links {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #f69a00;
+    border-radius: 2px;
+  }
+
+  .vragen-links i {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32%;
+}
+
+.vragen-links i img {
+    width: 45px;
+    margin-top: 30%;
+    margin-bottom: -7%;
+}
+
+.vragen-links .fa-stack {
+    margin-top: 10%;
+}
+
+.vragen-links .fa-stack i {
+    margin-top: 40%;
+}
+
+.vragen-links p {
+    text-align: center;
+}
+
+.buttons {
+    width: 150px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f49908;
+    border: 2px solid #f49908;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+}
