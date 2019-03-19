@@ -29,7 +29,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/promotie1.jpeg" alt="First slide">
+                            <img class="d-block w-100" src="" alt="">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -47,10 +47,12 @@
                     <img src="img/calendar.svg" alt="calendar">
                     <h3 class="algemeen-h3">Evenementen kalender</h3>
                 </div>
-                <div class="cta-links">
-                    <img src="img/search.svg" alt="search">
-                    <h3 class="algemeen-h3">Zoek een vergelijkbare titel</h3>
-                </div>
+                <a href="#search">
+                    <div class="cta-links">
+                        <img src="img/search.svg" alt="search">
+                        <h3 class="algemeen-h3">Zoek een vergelijkbare titel</h3>
+                    </div>
+                </a>
                 <a href="uitleg.html">
                     <div class="cta-links">
                         <img src="img/checklist.svg" alt="checklist">
@@ -60,6 +62,15 @@
             </div>
         </div>
     </div>
+
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form class="align-middle" action="boek.html">
+            <input type="search" value="" placeholder="zoek een boek" />
+            <input class="btn" type="submit" value="">
+        </form>
+    </div>
+
 </body>
 
 <!-- jQuery script -->
