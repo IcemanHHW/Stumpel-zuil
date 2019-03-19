@@ -34,7 +34,7 @@ p {
 }
 
 .row {
-    margin: 0 !important;
+    margin: 0!important;
 }
 
 html {
@@ -204,8 +204,21 @@ a {
 /* PAGINA GENRE */
 
 /* PAGINA BOEK */
+.boek-page {
+    padding-top: 5%;
+}
 
 /* PAGINA BOEK WARNING */
 
 /* PAGINA LOCATIES */
+.locaties { 
+    padding-top: 3%;
+}
 
+.locaties p {
+    margin-bottom: 0.5rem;
+}
+
+.locaties td {
+    padding:0 !important;
+}
