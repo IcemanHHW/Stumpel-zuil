@@ -5,17 +5,17 @@ html {
     margin: 25px auto;
 }
 
-a, a:hover, a:active {
+.where a, a:hover, a:active {
     text-decoration: none;
     color: #666;
 }
 
-.genres a {
+.where .choices a {
     color: #666;
     text-decoration: none;
     width: 150px;
     height: 150px;
-    margin: 10px;
+    margin: 15px;
     background-color: white;
     border: 1px solid #f69a00;
     border-radius: 2px;
@@ -26,23 +26,19 @@ a, a:hover, a:active {
     height: 1200px;
 }
 
-.genres {
+.where {
     top: 10%;
     position: relative;
 }
 
-.top-row {
+.choices {
     margin: 0 auto;
-    width: 60%;
+    width: 65%;
     top: 20%;
+    text-align: center;
 }
 
-.bottom-row {
-    margin: 0 auto;
-    width: 60%;
-}
-
-.genres i {
+.where i {
     color: black;
     font-size: 30px;
     text-align: center;
@@ -50,7 +46,7 @@ a, a:hover, a:active {
     margin: -5px 0 15px 0;
 }
 
-.genres p {
+.where p {
     text-align: center;
 }
 
@@ -59,14 +55,28 @@ a, a:hover, a:active {
     padding: calc(150px/2/1.6) 0
 }
 
-#genre-title {
+#where-title {
     margin-bottom: 20px;
     color: #0F2C56;
     font-size: 26pt;
     text-align: center;
 }
 
-.genre-img {
+.where-img {
     margin: 0 56px;
 }
+
+.button-navigation {
+    min-height: 50px;
+    width: 59%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.button-navigation #back {
+    float: left;
+}
+
+.button-navigation #next {
+    float: right;
 }

@@ -22,6 +22,21 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h2, h3 {
+    color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.algemeen-h2,
+.algemeen-h3 {
+    color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .algemeen-link {
     color: #000000 !important;
     font-size: 14px;
@@ -297,4 +312,3 @@ a {
 .locaties td {
     padding:0 !important;
 }
-

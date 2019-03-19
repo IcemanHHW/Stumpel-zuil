@@ -1,0 +1,68 @@
+body {
+    max-width: 1200px;
+    min-height: 800px;
+    max-height: 800px;
+    border: 1px solid black;
+}
+
+.main {
+    padding-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+
+.box img {
+    width: 160px;
+}
+
+.box .result-1-box {
+    width: 160px;
+    height: 40px;
+    background-color: #f69a00;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.result-1-box a, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#results-title {
+    margin-bottom: 20px;
+    color: #0F2C56;
+    font-size: 26pt;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mail-box {
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#mail-form {
+    padding-top: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#mail-button {
+    background-color: #f49908;
+    border: 2px solid #f49908;
+    padding: 5px 50px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
