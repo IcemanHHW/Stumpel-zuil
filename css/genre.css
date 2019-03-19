@@ -65,3 +65,7 @@ a, a:hover, a:active {
     font-size: 26pt;
     text-align: center;
 }
+
+.genre-img {
+    margin: 0 56px;
+}
