@@ -22,6 +22,21 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h2, h3 {
+    color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.algemeen-h2,
+.algemeen-h3 {
+    color: #0f2c56;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .algemeen-link {
     color: #000000 !important;
     font-size: 14px;
@@ -184,6 +199,81 @@ a {
     width: 60px;
     margin: -15px 0 15px 0;
     color: #f49908;
+}
+
+/* CAROUSEL */
+/* .carousel .carousel-item {
+    height: 25em;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 25em;
+  } */
+
+
+  /* PAGINA UITLEG */
+  .uitleg {
+      margin: 0 auto;
+      text-align: center;
+      padding: calc(800px/2/2);
+  }
+
+  .uitleg-button {
+      margin-top: 20px;
+  }
+
+  /* VRAGEN */
+
+
+  .vragen-links {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #f69a00;
+    border-radius: 2px;
+  }
+
+  .vragen-links i {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32%;
+}
+
+.vragen-links i img {
+    width: 45px;
+    margin-top: 30%;
+    margin-bottom: -7%;
+}
+
+.vragen-links .fa-stack {
+    margin-top: 10%;
+}
+
+.vragen-links .fa-stack i {
+    margin-top: 40%;
+}
+
+.vragen-links p {
+    text-align: center;
+}
+
+.buttons {
+    width: 150px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f49908;
+    border: 2px solid #f49908;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
 }
 
 /* PAGINA UITLEG */
