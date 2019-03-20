@@ -80,3 +80,7 @@ html {
 .button-navigation #next {
     float: right;
 }
+
+.voortgang-balk {
+    margin-top: 320px !important;
+}
