@@ -11,6 +11,7 @@
         crossorigin="anonymous">
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/results.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
@@ -21,19 +22,35 @@
 </head>
 
 <body>
+        <nav class="navigatie navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand algemeen-link" href="index.html">Terug naar beginscherm</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                        <form class="form-inline my-2 my-lg-0 ml-auto navigatie-zoeken">
+                            <a href="index.html"><i class="fas fa-home"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
     <div class="main">
 
         <h2 id="results-title">Uw resultaten</h2>
         <div class="box">
             <img src="https://gvacdn.akamaized.net/Assets/Images_Upload/2019/02/20/Michaelides_De-stille-pati%C3%ABnt.jpg" class="img-fluid" alt="de stille patient">
             <div class="result-1-box">
-                <a href="#">Bekijken</a>
+                <a href="boek.html">Bekijken</a>
             </div>
         </div>
         <div class="box">
             <img src="https://gvacdn.akamaized.net/Assets/Images_Upload/2019/02/20/Michaelides_De-stille-pati%C3%ABnt.jpg" class="img-fluid" alt="de stille patient">
             <div class="result-1-box">
-                <a href="#">Bekijken</a>
+                <a href="boek-warning.html">Bekijken</a>
             </div>
         </div>
         <div class="box">
@@ -70,9 +87,9 @@
             </div>
         </div>
 
-
+        
     </div>
-
+    <img src="img/resultaten.svg" alt="vraag 1" class="voortgang-balk-results">
 </body>
 
 <!-- jQuery script -->

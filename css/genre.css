@@ -1,8 +1,7 @@
 html {
     max-width: 1200px;
+    min-height: 800px;
     max-height: 800px;
-    border: 1px solid black;
-    margin: 25px auto;
 }
 
 a, a:hover, a:active {
@@ -10,7 +9,7 @@ a, a:hover, a:active {
     color: #666;
 }
 
-.genres a {
+.genres .choices .content {
     color: #666;
     text-decoration: none;
     width: 150px;
@@ -68,4 +67,24 @@ a, a:hover, a:active {
 
 .genre-img {
     margin: 0 56px;
+}
+
+.button-navigation {
+    min-height: 50px;
+    width: 59%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.button-navigation #back {
+    float: left;
+}
+
+.button-navigation #next {
+    float: right;
+    margin-right: 27px;
+}
+
+.voortgang-balk {
+    margin-top: 160px !important;
 }

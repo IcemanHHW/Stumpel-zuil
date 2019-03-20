@@ -2,7 +2,6 @@ body {
     max-width: 1200px;
     min-height: 800px;
     max-height: 800px;
-    border: 1px solid black;
 }
 
 .main {
@@ -31,7 +30,7 @@ body {
     text-align: center;
 }
 
-.result-1-box a, a:hover, a:active {
+.result-1-box a {
     text-decoration: none;
     color: white;
     line-height: 40px;
@@ -64,5 +63,9 @@ body {
     padding: 5px 50px;
     border-radius: 3px;
     color: #ffffff;
+}
+
+.voortgang-balk-results {
+    margin-top: -10px;
 }
 
