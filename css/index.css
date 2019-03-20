@@ -241,6 +241,10 @@ a {
     text-align: center;
 }
 
+.vragen-titel {
+    font-weight: bold;
+}
+
 .buttons {
     width: 150px;
     margin: 10px;
@@ -297,6 +301,14 @@ a {
 }
 
 /* PAGINA BOEK WARNING */
+
+.alert {
+    font-weight: bold !important;
+}
+
+.alert-link {
+    font-weight: normal !important;
+}
 
 /* PAGINA LOCATIES */
 .locaties { 
