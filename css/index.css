@@ -276,6 +276,18 @@ a {
     width: 100%;
 }
 
+.voortgang-balk {
+    margin-top: -52px;
+}
+
+.voortgang-balk-emotie {
+    margin-top: -90px;
+}
+
+.voortgang-balk-uitleg {
+    margin-top: 5px;
+}
+
 /* PAGINA UITLEG */
 .uitleg {
     margin: 0 auto;
