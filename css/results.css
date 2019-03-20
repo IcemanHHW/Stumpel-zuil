@@ -1,11 +1,5 @@
-body {
-    max-width: 1200px;
-    min-height: 800px;
-    max-height: 800px;
-}
-
 .main {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 100%;
     margin: 0 auto;
     width: 90%;
@@ -43,7 +37,6 @@ body {
     color: #0F2C56;
     font-size: 26pt;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .mail-box {
@@ -66,6 +59,6 @@ body {
 }
 
 .voortgang-balk-results {
-    margin-top: -10px;
+    margin-top: 30px;
 }
 
