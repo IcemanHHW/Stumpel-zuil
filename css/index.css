@@ -44,7 +44,6 @@ p {
 }
 
 .algemeen-link::before {
-    content: "< ";
     color: #000000;
 }
 
@@ -82,7 +81,7 @@ a {
 }
 
 .navigatie-zoeken i {
-    color: #000000;
+    color: #0f2c56;
     font-size: 20px;
 }
 
