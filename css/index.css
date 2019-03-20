@@ -14,14 +14,6 @@ html {
     color: #ffffff;
 }
 
-h2, h3 {
-    color: #0f2c56;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .algemeen-h2,
 .algemeen-h3 {
@@ -29,19 +21,9 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h2, h3 {
-    color: #0f2c56;
-    font-family: 'Ubuntu', sans-serif;
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
-}
-
-.algemeen-h2,
-.algemeen-h3 {
-    color: #0f2c56;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .algemeen-link {
@@ -276,14 +258,20 @@ a {
 
 .voortgang-balk {
     margin-top: -46px;
+    width: 1200px;
+    height: 100px;
 }
 
 .voortgang-balk-emotie {
     margin-top: -90px;
+    width: 1200px;
+    height: 100px;
 }
 
 .voortgang-balk-uitleg {
     margin-top: -18px;
+    width: 1200px;
+    height: 100px;
 }
 
 /* PAGINA UITLEG */
