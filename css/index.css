@@ -1,3 +1,10 @@
+html {
+    max-width: 1200px;
+    min-height: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
 /* ALGEMEEN */
 .algemeen-button {
     background-color: #f49908;
@@ -52,14 +59,6 @@ p {
     margin: 0!important;
 }
 
-html {
-    height: 800px;
-    max-height: 800px;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 25px;
-    border: 1px solid black;
-}
 
 .container {
     max-width: 1400px;
@@ -277,7 +276,7 @@ a {
 }
 
 .voortgang-balk {
-    margin-top: -52px;
+    margin-top: -46px;
 }
 
 .voortgang-balk-emotie {
@@ -285,7 +284,7 @@ a {
 }
 
 .voortgang-balk-uitleg {
-    margin-top: 5px;
+    margin-top: -18px;
 }
 
 /* PAGINA UITLEG */

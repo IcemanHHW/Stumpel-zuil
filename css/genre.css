@@ -1,8 +1,7 @@
 html {
     max-width: 1200px;
+    min-height: 800px;
     max-height: 800px;
-    border: 1px solid black;
-    margin: 25px auto;
 }
 
 a, a:hover, a:active {
