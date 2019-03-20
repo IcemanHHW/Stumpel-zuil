@@ -14,3 +14,9 @@ $(function () {
         }
     });
 });
+
+/* ChANGE BACKGROUND COLOR QUIZ */
+$(".quiz-answer").click(function() {
+    $(".quiz-answer").css("background-color", "white");
+    $(this).css("background-color", "#f7f7f7");
+});
